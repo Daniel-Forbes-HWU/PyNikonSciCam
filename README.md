@@ -50,10 +50,10 @@ import cv2
 import matplotlib.pyplot as plt
 
 # Initialize camera
-camera = NikonCamera(3)  # ID = 0 for camera. ID = 3 for simulator
+with NikonCamera(3) as camera:  # ID = 0 for camera. ID = 3 for simulator
 
-# Capture image
-image = camera.get_image()
+    # Capture image
+    image = camera.get_image()
 
 # Display image using OpenCV
 cv2.imshow('Captured Image', image)
