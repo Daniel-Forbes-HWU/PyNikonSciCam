@@ -87,3 +87,8 @@ Current limitations of the library include:
   2. Increment the version number in the "pyproject.toml" file. Then run the following command in the root directory of the project. 
   3. Run the following command in the root directory of the project: `python -m build`
   4. The wheel file will be created in the "dist" directory.
+
+## Issues and improvements
+If you have any issues when using this project or need certain functionality added, please let us know by creating an issue in the issues tab.
+If you'd lkke to contribute any changes you've made to this project, then please fork the repo and make a pull request in the typical fashion.
+
