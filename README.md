@@ -1,4 +1,4 @@
-# NikonPy Camera Interface
+# PyNikonSciCam Camera Interface
 
 A Python wrapper for controlling Nikon scientific cameras through the Nikon SDK. This library provides a high-level interface for camera control and image acquisition.
 
