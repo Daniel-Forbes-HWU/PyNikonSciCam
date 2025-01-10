@@ -2,3 +2,4 @@
 /array_test.py
 DSCam.dll
 DSCamInstaller.msi
+__pycache__/
