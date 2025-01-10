@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PyNikonSciCam"
+version = "0.1.0"
+description = "A Python interface for Scientific Nikon cameras."
+authors = [
+    {name="Johan van der Westhuizen"},
+    {name="Daniel Forbes", email="df13@hw.ac.uk"},
+    {name="Kees van der Oord"},
+]
+readme = "README.md"
+requires-python = ">=3.7"
+license = { text = "MIT" }
+
+dependencies = [
+    "numpy>=1.20.0",
+]
+
+[tool.setuptools]
+packages = ["PyNikonSciCam"]
